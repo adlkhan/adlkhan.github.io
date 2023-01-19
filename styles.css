@@ -1,0 +1,16 @@
+#displayPicture {
+  width: 150px;
+  height: 150px;
+  float: right;
+  margin-left: 40px;
+}
+
+iframe {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+  #displayPicture {
+    display: none;
+  }
+}
