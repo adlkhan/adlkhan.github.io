@@ -1,8 +1,10 @@
 #displayPicture {
-  width: 150px;
-  height: 150px;
+  width: 168px;
+  height: 169px;
   float: right;
   margin-left: 40px;
+  border-radius: 50%;
+  margin-top: -20px;
 }
 
 iframe {
