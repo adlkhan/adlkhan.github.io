@@ -1,18 +1,25 @@
-#displayPicture {
-  width: 168px;
-  height: 169px;
-  float: right;
-  margin-left: 40px;
+body {
+  padding-bottom: 2rem;
+}
+
+body header {
+  padding-top: 2rem;
+}
+
+img.avatar {
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
-  margin-top: -20px;
+  overflow: hidden;
+  margin-right: 15px;
+  object-fit: cover;
+  float: left;
 }
 
-iframe {
-  width: 100%;
+h2 {
+  margin-top: 1rem;
 }
 
-@media screen and (max-width: 500px) {
-  #displayPicture {
-    display: none;
-  }
+article h3 {
+  margin-top: 1rem;
 }
