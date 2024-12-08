@@ -11,9 +11,14 @@ img.avatar {
   height: 80px;
   border-radius: 50%;
   overflow: hidden;
-  margin-right: 15px;
+  margin-right: 5px;
   object-fit: cover;
   float: left;
+}
+
+.contact {
+  clear: left;
+  margin-top: 2.5rem;
 }
 
 h2 {
